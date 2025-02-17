@@ -1,23 +1,29 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 
     <header>
         <h1>Your Name</h1>
         <p>Researcher | Developer | Educator</p>
+        <div class="social-links">
+            <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/yourprofile" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i></a>
+        </div>
     </header>
 
     <nav>
         <ul>
             <li><a href="#education">Education</a></li>
             <li><a href="#research">Research</a></li>
-            <li><a href="#experience">Work Experience</a></li>
+            <li><a href="#experience">Experience</a></li>
             <li><a href="#publications">Publications</a></li>
             <li><a href="#skills">Skills</a></li>
         </ul>
@@ -45,7 +51,13 @@
 
     <section id="skills">
         <h2>Skills</h2>
-        <p>Python, Java, C++, Machine Learning, Web Development...</p>
+        <div class="skills-grid">
+            <div class="skill">Python</div>
+            <div class="skill">Java</div>
+            <div class="skill">C++</div>
+            <div class="skill">Machine Learning</div>
+            <div class="skill">Web Development</div>
+        </div>
     </section>
 
     <footer>
